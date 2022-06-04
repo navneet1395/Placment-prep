@@ -1,1 +1,25 @@
+Array in java 
+The general form of a one-dimensional array declaration is 
+type var-name[];
+OR
+type[] var-name;
 
+An array declaration has two components: the type and the name.
+  type declares the element type of the array. 
+  The element type determines the data type of each element that comprises the array. Like an array of integers, 
+  we can also create an array of other primitive data types like char, float, double, etc., or user-defined data types (objects of a class). 
+  Thus, the element type for the array determines what type of data the array will hold. 
+ The general form of new as it applies to one-dimensional arrays appears as follows: 
+
+var-name = new type [size];
+  Here, type specifies the type of data being allocated, size determines the number of elements in the array, 
+  and var-name is the name of the array variable that is linked to the array.
+  To use new to allocate an array, you must specify the type and number of elements to allocate.
+    Example: 
+    int intArray[];    //declaring array
+    intArray = new int[20];  // allocating memory to array
+    
+Obtaining an array is a two-step process.
+  First, you must declare a variable of the desired array type.
+  Second, you must allocate the memory to hold the array, using new, and assign it to the array variable. 
+  Thus, in Java, all arrays are dynamically allocated.
